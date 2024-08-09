@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+           
+        }
+        .card-img-top {
+            height: 150px;
+            height: 200px;
+            justify-content: center;
+
+        }
+
+        .btn-custom {
+            background-color: lightgreen;
+            font-size: 17px;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background-color: darkgreen;
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .price {
+            font-size: 20px;
+        }
+
+        .price .strike {
+            text-decoration: line-through;
+            font-size: 20px;
+        }
+
+        .rating img {
+            height: 18px;
+            width: 18px;
+        }
+
+        select {
+            width: 100%;
+            border: 1px solid #ced4da;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <h1 style="text-align: center;">Fruits</h1>  <br>
+    <div class="card bg-light mt-3"  style="background-color: #eeeeee;">
+        <div class="card-header">
+            <ul class="nav justify-content-center" style="font-size: 23px;">
+                <li class="nav-item">
+                    <a class="nav-link" href="fruits.html"  style="color: lightgreen;">Fruits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vegetables.html">Vegetables</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="greenleaf.html">GreenLeaf</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Special.html">Special</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br> <br> 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card ">
+                    <img src="image1/organe.jpeg" class="card-img-top" alt="organe">
+                    <div class="card-body">
+                        <h5 class="card-title">organe</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">100
+                            <span class="strike">120</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/apple.jpeg" class="card-img-top" alt="apple">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">150
+                            <span class="strike">200</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/grapes.jpeg" class="card-img-top" alt="grapes">
+                    <div class="card-body">
+                        <h5 class="card-title">grapes</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">90
+                            <span class="strike">130</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/pomegranate.jpeg" class="card-img-top" alt="pomegranate">
+                    <div class="card-body">
+                        <h5 class="card-title">Pomegranate</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">172
+                            <span class="strike">190</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card ">
+                    <img src="image1/banana.jpeg" class="card-img-top" alt="banana">
+                    <div class="card-body">
+                        <h5 class="card-title">Banana</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">50
+                            <span class="strike">80</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/cherry.jpeg" class="card-img-top" alt="cherry">
+                    <div class="card-body">
+                        <h5 class="card-title">Cherry</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">200
+                            <span class="strike">220</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/mangoes1.jpeg" class="card-img-top" alt="mango">
+                    <div class="card-body">
+                        <h5 class="card-title">Mango</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">100
+                            <span class="strike">150</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/muskmelon.jpeg" class="card-img-top" alt="Muskmelon">
+                    <div class="card-body">
+                        <h5 class="card-title">Muskmelon</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">220
+                            <span class="strike">250</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card ">
+                    <img src="image1/sapota.jpeg" class="card-img-top" alt="sapota">
+                    <div class="card-body">
+                        <h5 class="card-title">Sapota</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">100
+                            <span class="strike">150</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/jackfruits.jpeg" class="card-img-top" alt="jackfruits">
+                    <div class="card-body">
+                        <h5 class="card-title">Jack Fruits</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">74
+                            <span class="strike">90</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/watermelon.jpeg" class="card-img-top" alt="watermelon">
+                    <div class="card-body">
+                        <h5 class="card-title">Watermelon</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">90
+                            <span class="strike">130</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/dates yellow.jpeg" class="card-img-top" alt="date yellow">
+                    <div class="card-body">
+                        <h5 class="card-title">Dates Yellow</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">44
+                            <span class="strike">70</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card ">
+                    <img src="image1/dragon fruit.jpeg" class="card-img-top" alt="dragon fruits">
+                    <div class="card-body">
+                        <h5 class="card-title">Dragon Fruits</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">74
+                            <span class="strike">101</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/guava.jpeg" class="card-img-top" alt="guava">
+                    <div class="card-body">
+                        <h5 class="card-title">Guava</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">150
+                            <span class="strike">220</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/apple green.jpeg" class="card-img-top" alt="apple green">
+                    <div class="card-body">
+                        <h5 class="card-title">Green Apple</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">170
+                            <span class="strike">200</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/litchi.jpeg" class="card-img-top" alt="litchi">
+                    <div class="card-body">
+                        <h5 class="card-title">Litchi</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">180
+                            <span class="strike">230</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card ">
+                    <img src="image1/pineapple.jpeg" class="card-img-top" alt="pineapple">
+                    <div class="card-body">
+                        <h5 class="card-title">Pineapple</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">75
+                            <span class="strike">102</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/pear beauty.jpeg" class="card-img-top" alt="pear beauty">
+                    <div class="card-body">
+                        <h5 class="card-title">Pear Beauty</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">155
+                            <span class="strike">210</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/avocado.jpeg" class="card-img-top" alt="avocado">
+                    <div class="card-body">
+                        <h5 class="card-title">Mango</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">79
+                            <span class="strike">110</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="card">
+                    <img src="image1/papaya.jpeg" class="card-img-top" alt="papaya">
+                    <div class="card-body">
+                        <h5 class="card-title">Papaya</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="3kg">3kg</option>
+                                <option value="4kg">4kg</option>
+                                <option value="5kg">5kg</option>
+                            </select>
+                        </div>
+                        <h1 class="card-text price mt-3">
+                            <img src="image1/rupees.png" alt="Rupees" height="18px" width="18px">41
+                            <span class="strike">56</span>
+                        </h1>
+                        <div class="rating">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/star.png" alt="Star">
+                            <img src="image1/half star.png" alt="Half Star">
+                        </div>
+                        <button class="btn-custom w-100 mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
