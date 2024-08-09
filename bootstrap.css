@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    padding: 10px 15px;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    color: lightgreen;
+}
+
+.button {
+    width: 140px;
+    margin-left: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: lightgreen;
+    font-size: 20px;
+}
+
+.button:hover {
+    width: 180px;
+    background-color:lightgreen;
+}
+
+.btn1 {
+    background-color: lightseagreen;
+    width: 160px;
+}
+
+.img1 {
+    float: left;
+}
+
+.d-block {
+    height: 420px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    margin: 40px;
+    padding: 35px;
+}
+
+.pic1:hover {
+    transform: scale(1.1);
+}
+
+.d-flex1 {
+    height: 120%;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.btn1 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+    padding: 10px 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 18px;
+}
+
+.f1 {
+    text-align: center;
+    border: 1px solid gray;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.card{
+    margin: 20px;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+.price
+{
+    font-size: 25px;
+}
+.card-img-top {
+    height: 150px;
+    height: 200px;
+    justify-content: center;
+}
+
+
+.strike {
+    text-decoration: line-through;
+    font-size: 25px
+
+}
+
+.rating img {
+    height: 18px;
+    width: 18px;
+}
+
+
+.card-body {
+    padding: 15px;
+}
+.btn-custom{
+    background-color: lightgreen;
+    border: none;
+    height: 40px;
+}
+.btn-custom:hover {
+    background-color: darkgreen;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+select {
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+
+.review {
+    padding: 20px;
+}
+
+.review-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review-cart {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.review-cart:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.review-profile img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.review-text {
+    padding: 20px;
+}
+
+.review-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.h3 {
+    text-align: center;
+}
+
+.row1 {
+    margin: 18px;
+    font-size: 23px;
+}
+.f{
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+}
+.f:hover{
+    transform: scale(1.5);
+}
+
+
+.btn2 {
+    background-color: lightgreen;
+    margin: 20px;
+    width: 130px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+}
+
+.btn2:hover {
+    background-color: darkgreen;
+    width: 150px;
+    color: white;
+}
+
+
+.text-lightgreen {
+    color: lightgreen;
+}
+
+.location-item,
+.quick-link-item,
+.contact-item,
+.service-item {
+    font-size: 20px;
+}
